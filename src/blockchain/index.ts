@@ -1,5 +1,4 @@
 import { DataSource } from 'typeorm'
-import { Header } from '@polkadot/types/interfaces'
 import { HexString } from '@polkadot/util/types'
 import { blake2AsHex } from '@polkadot/util-crypto'
 import { u8aConcat, u8aToHex } from '@polkadot/util'
@@ -12,6 +11,7 @@ import { HeadState } from './head-state'
 import { InherentProvider } from './inherent'
 import { ResponseError } from '../rpc/shared'
 import { defaultLogger } from '../logger'
+import type { Header } from './header'
 
 const logger = defaultLogger.child({ name: 'blockchain' })
 

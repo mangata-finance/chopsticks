@@ -1,4 +1,3 @@
-import { Header } from '@polkadot/types/interfaces'
 import { HexString } from '@polkadot/util/types'
 import { bnToHex, bnToU8a, compactAddLength, u8aConcat } from '@polkadot/util'
 import _ from 'lodash'
@@ -9,6 +8,7 @@ import { InherentProvider } from './inherent'
 import { ResponseError } from '../rpc/shared'
 import { compactHex } from '../utils'
 import { defaultLogger, truncate, truncateStorageDiff } from '../logger'
+import type { Header } from './header'
 
 const logger = defaultLogger.child({ name: 'txpool' })
 
