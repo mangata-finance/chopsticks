@@ -115,13 +115,16 @@ dist
 !.yarn/patches
 !.yarn/plugins
 !.yarn/sdks
-!.yarn/versions
+.yarn/versions
 
 .idea
 
 *.sqlite
+*.sqlite-journal
 *.wasm
 
 .DS_store
 
 preview/
+
+lib
