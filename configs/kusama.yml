@@ -12,6 +12,11 @@ import-storage:
           - 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
         - data:
             free: '10000000000000000000'
+      -
+        -
+          - 5EekB3dsQ4yW6WukZRL5muXb4qKvJMpJdXW3w59SptYHBkvk
+        - data:
+            free: '1000000000000000'
   Council:
     Members: [5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY]
   PhragmenElection:

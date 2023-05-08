@@ -1,7 +1,8 @@
-endpoint: wss://mangata-x.api.onfinality.io/public-ws
+endpoint: wss://prod-kusama-collator-01.mangatafinance.cloud
 mock-signature-host: true
 block: ${env.MANGATA_BLOCK_NUMBER}
 db: ./mangata.db.sqlite
+port: 9946
 
 registered-types:
     types:
@@ -27,5 +28,20 @@ import-storage:
           - 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
           - token: 0
         - free: '1000000000000000000000000' # 1M MG
+      -
+        -
+          - 5EekB3dsQ4yW6WukZRL5muXb4qKvJMpJdXW3w59SptYHBkvk
+          - token: 0
+        - free: '1000000000000000000000000' # 1M MG
+      -
+        -
+          - 5EekB3dsQ4yW6WukZRL5muXb4qKvJMpJdXW3w59SptYHBkvk
+          - token: 30
+        - free: '1000000000' # 1K USDT
+      -
+        -
+          - 5EekB3dsQ4yW6WukZRL5muXb4qKvJMpJdXW3w59SptYHBkvk
+          - token: 4
+        - free: '1000000000000000' # 1K KSM
   Council:
     Members: [5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY]
